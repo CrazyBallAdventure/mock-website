@@ -1,0 +1,47 @@
+body {
+    background-color: palevioletred;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp-links {
+display: flex;
+flex-direction: row;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
