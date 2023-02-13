@@ -18,12 +18,17 @@ body {
 
 .profile-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
+.additional-doe-info{
+  display: block;
+  flex-direction: row;
+}
 .pic-links {
     display: flex;
     flex-direction: column;
+  float: left;
 }
 
 .pfp-links {
@@ -33,12 +38,21 @@ flex-direction: row;
 
 .contact-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.contact-link {
+  flex-direction: column;
 }
 
 .profile-text {
     display: flex;
     flex-direction: row;
+  float: right;
+}
+
+.pronouns {
+  display: flex;
 }
 
 .username {
